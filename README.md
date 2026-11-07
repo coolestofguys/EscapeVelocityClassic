@@ -6,7 +6,7 @@ hulls, and three EV star systems. There are no storylines.
 
 This is a free, non-commercial fan mod. It is not affiliated with or endorsed by Ambrosia
 Software. *Escape Velocity* and its names, ship designs, art and sounds belong to their original
-creators (Matt Burch and Ambrosia Software). Most ship art is new, drawn for this mod.
+creators (Matt Burch and Ambrosia Software). Most ship art is new, made for this mod with AI image generation (see *AI use* below).
 
 ## Install
 
@@ -205,7 +205,7 @@ Vanilla combat ships come out at about 0.6 to 1.0 deployment points per mount po
 
 ## Ship sprites
 
-The Confederate Cruiser, Confederate Superfrigate, Rebel Cruiser, Kestrel, Confed Gunboat, Rebel Destroyer, Argosy, Bulk Freighter, Defender, Corvette, Rapier, Clipper, Light Freighter, Courier and Escort Carrier (a red repaint of the Bulk Freighter) use new art drawn for this mod, with empty weapon sockets painted on. The Shuttlecraft and the fighters still use the original EV art, taken from the nose-up frame of each ship in the *EV Classic for Nova* port and upscaled automatically to Starsector sizes, so they look soft. New art for them is planned.
+The Confederate Cruiser, Confederate Superfrigate, Rebel Cruiser, Kestrel, Confed Gunboat, Rebel Destroyer, Argosy, Bulk Freighter, Defender, Corvette, Rapier, Clipper, Light Freighter, Courier and Escort Carrier (a red repaint of the Bulk Freighter) use new AI-generated art made for this mod, with empty weapon sockets painted on. The Shuttlecraft and the fighters still use the original EV art, taken from the nose-up frame of each ship in the *EV Classic for Nova* port and upscaled automatically to Starsector sizes, so they look soft. New art for them is planned.
 
 Faithful to EV:
 
@@ -245,3 +245,11 @@ All Rebellion ships (Rebel Destroyer, Escort Carrier, Rebel Cruiser and the Mant
 - **System positions:** set at the top of `src/data/scripts/world/EVSectorGen.java`. These are
   compiled into `jars/ev_classic.jar`.
 - **Relationships:** set in `src/data/scripts/EVModPlugin.java`.
+
+## AI use
+
+This mod was made with heavy use of AI. The new ship sprites were made with an AI image generator,
+based on the original EV designs, and cut out, socketed and recoloured with AI tools. The code,
+data, balance numbers and descriptions were written by Claude (Anthropic's AI) under the author's
+direction; the author set the design goals, tested in-game and made the balance calls. The weapon
+sounds and the Shuttlecraft and fighter sprites are original EV assets.
