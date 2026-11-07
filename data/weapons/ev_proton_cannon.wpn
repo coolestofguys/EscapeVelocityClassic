@@ -1,0 +1,49 @@
+{
+  "id": "ev_proton_cannon",
+  "specClass": "projectile",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/ev/ev_proton_cannon_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/pulse_laser_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/ev/ev_proton_cannon_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/pulse_laser_hardpoint_glow.png",
+  "turretOffsets": [
+    15,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    15,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "glowColor": [
+    70,
+    140,
+    255,
+    255
+  ],
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 40.0,
+    "spread": 8.0,
+    "particleSizeMin": 8.0,
+    "particleSizeRange": 10.0,
+    "particleDuration": 0.12,
+    "particleCount": 10,
+    "particleColor": [
+      70,
+      140,
+      255,
+      255
+    ]
+  },
+  "projectileSpecId": "ev_proton_shot",
+  "fireSoundTwo": "ev_proton_fire",
+  "everyFrameEffect": "data.scripts.weapons.EVFixedMountRange"
+}

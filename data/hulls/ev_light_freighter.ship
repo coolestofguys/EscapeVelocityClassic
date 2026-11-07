@@ -1,0 +1,201 @@
+{
+  "bounds": [
+    75.0,
+    7.5,
+    54.0,
+    10.5,
+    53.0,
+    14.5,
+    55.0,
+    15.5,
+    50.0,
+    18.5,
+    45.0,
+    11.5,
+    28.0,
+    13.5,
+    8.0,
+    11.5,
+    -1.0,
+    13.5,
+    -24.0,
+    12.5,
+    -28.0,
+    14.5,
+    -39.0,
+    12.5,
+    -52.0,
+    18.5,
+    -57.0,
+    34.5,
+    -69.0,
+    34.5,
+    -72.0,
+    16.5,
+    -74.0,
+    15.5,
+    -74.0,
+    -14.5,
+    -72.0,
+    -15.5,
+    -69.0,
+    -33.5,
+    -57.0,
+    -33.5,
+    -52.0,
+    -17.5,
+    -41.0,
+    -12.5,
+    -29.0,
+    -13.5,
+    -26.0,
+    -11.5,
+    -15.0,
+    -11.5,
+    -14.0,
+    -15.5,
+    -16.0,
+    -17.5,
+    -11.0,
+    -17.5,
+    -9.0,
+    -20.5,
+    -1.0,
+    -23.5,
+    7.0,
+    -18.5,
+    9.0,
+    -11.5,
+    22.0,
+    -12.5,
+    45.0,
+    -10.5,
+    50.0,
+    -17.5,
+    54.0,
+    -9.5,
+    62.0,
+    -8.5,
+    71.0,
+    -0.5,
+    70.0,
+    5.5
+  ],
+  "center": [
+    34.5,
+    75.0
+  ],
+  "collisionRadius": 79.1,
+  "coversColor": "0,0,0,0",
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 24,
+      "length": 23,
+      "location": [
+        -74.1,
+        10.8
+      ],
+      "style": "LOW_TECH",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 24,
+      "length": 23,
+      "location": [
+        -74.1,
+        -10.8
+      ],
+      "style": "LOW_TECH",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 28,
+      "length": 29,
+      "location": [
+        -75.3,
+        0.9
+      ],
+      "style": "LOW_TECH",
+      "width": 7
+    },
+    {
+      "angle": 180,
+      "contrailSize": 28,
+      "length": 29,
+      "location": [
+        -75.3,
+        -0.9
+      ],
+      "style": "LOW_TECH",
+      "width": 7
+    },
+    {
+      "angle": 180,
+      "contrailSize": 24,
+      "length": 23,
+      "location": [
+        -74.1,
+        -10.4
+      ],
+      "style": "LOW_TECH",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 24,
+      "length": 23,
+      "location": [
+        -74.1,
+        10.4
+      ],
+      "style": "LOW_TECH",
+      "width": 6
+    }
+  ],
+  "height": 150,
+  "hullId": "ev_light_freighter",
+  "hullName": "Light Freighter",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 75.2,
+  "spriteName": "graphics/ships/ev/ev_light_freighter.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 300,
+      "id": "WS0001",
+      "locations": [
+        -4.8,
+        0.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 180,
+      "arc": 300,
+      "id": "WS0002",
+      "locations": [
+        -21.8,
+        0.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 69,
+  "builtInMods": [
+    "civgrade",
+    "surveying_equipment"
+  ]
+}

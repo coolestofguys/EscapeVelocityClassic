@@ -1,0 +1,21 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 0,
+  "fluxVents": 11,
+  "goalVariant": true,
+  "hullId": "ev_escort_carrier",
+  "hullMods": [],
+  "permaMods": [],
+  "sMods": [],
+  "quality": 1,
+  "variantId": "ev_escort_carrier_Standard",
+  "weaponGroups": [],
+  "wings": [
+    "ev_manta_wing",
+    "ev_manta_wing",
+    "ev_manta_wing",
+    "ev_manta_wing",
+    "ev_manta_wing",
+    "ev_manta_wing"
+  ]
+}

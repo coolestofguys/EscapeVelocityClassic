@@ -1,0 +1,355 @@
+{
+  "bounds": [
+    122.5,
+    5.5,
+    78.5,
+    23.5,
+    64.5,
+    37.5,
+    55.5,
+    23.5,
+    2.5,
+    47.5,
+    -28.5,
+    48.5,
+    -48.5,
+    28.5,
+    -58.5,
+    29.5,
+    -56.5,
+    54.5,
+    -35.5,
+    84.5,
+    21.5,
+    85.5,
+    25.5,
+    95.5,
+    -24.5,
+    102.5,
+    -70.5,
+    93.5,
+    -96.5,
+    76.5,
+    -116.5,
+    48.5,
+    -121.5,
+    -26.5,
+    -113.5,
+    -30.5,
+    -116.5,
+    -48.5,
+    -77.5,
+    -89.5,
+    12.5,
+    -101.5,
+    25.5,
+    -96.5,
+    21.5,
+    -84.5,
+    -40.5,
+    -79.5,
+    -61.5,
+    -32.5,
+    -48.5,
+    -27.5,
+    -29.5,
+    -47.5,
+    7.5,
+    -45.5,
+    54.5,
+    -23.5,
+    65.5,
+    -36.5,
+    78.5,
+    -22.5,
+    114.5,
+    -12.5
+  ],
+  "center": [
+    102.5,
+    122.5
+  ],
+  "collisionRadius": 128.2,
+  "coversColor": "0,0,0,0",
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 48,
+      "length": 40,
+      "location": [
+        -116.8,
+        42.0
+      ],
+      "style": "EV_CONFED_BLUE",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 48,
+      "length": 40,
+      "location": [
+        -116.8,
+        -42.0
+      ],
+      "style": "EV_CONFED_BLUE",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 48,
+      "length": 40,
+      "location": [
+        -116.8,
+        -42.0
+      ],
+      "style": "EV_CONFED_BLUE",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 48,
+      "length": 40,
+      "location": [
+        -116.8,
+        42.0
+      ],
+      "style": "EV_CONFED_BLUE",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 24,
+      "length": 26,
+      "location": [
+        -120.2,
+        28.9
+      ],
+      "style": "EV_CONFED_BLUE",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 24,
+      "length": 26,
+      "location": [
+        -120.2,
+        -28.9
+      ],
+      "style": "EV_CONFED_BLUE",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 24,
+      "length": 26,
+      "location": [
+        -120.2,
+        -28.9
+      ],
+      "style": "EV_CONFED_BLUE",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 24,
+      "length": 26,
+      "location": [
+        -120.2,
+        28.9
+      ],
+      "style": "EV_CONFED_BLUE",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 24,
+      "length": 26,
+      "location": [
+        -120.2,
+        17.5
+      ],
+      "style": "EV_CONFED_BLUE",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 24,
+      "length": 26,
+      "location": [
+        -120.2,
+        -17.5
+      ],
+      "style": "EV_CONFED_BLUE",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 24,
+      "length": 26,
+      "location": [
+        -120.2,
+        -17.5
+      ],
+      "style": "EV_CONFED_BLUE",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 24,
+      "length": 26,
+      "location": [
+        -120.2,
+        17.5
+      ],
+      "style": "EV_CONFED_BLUE",
+      "width": 6
+    }
+  ],
+  "height": 245,
+  "hullId": "ev_confed_frigate",
+  "hullName": "Confederate Superfrigate",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 121.8,
+  "spriteName": "graphics/ships/ev/ev_confed_frigate.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        11.3,
+        88.6
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        11.3,
+        -88.6
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 20,
+      "arc": 270,
+      "id": "WS0003",
+      "locations": [
+        -18.3,
+        24.6
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -20,
+      "arc": 270,
+      "id": "WS0004",
+      "locations": [
+        -18.3,
+        -24.6
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 100,
+      "arc": 240,
+      "id": "WS0005",
+      "locations": [
+        -4.1,
+        36.3
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -100,
+      "arc": 240,
+      "id": "WS0006",
+      "locations": [
+        -4.1,
+        -36.3
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 15,
+      "arc": 150,
+      "id": "WS0007",
+      "locations": [
+        -77.5,
+        61.3
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -15,
+      "arc": 150,
+      "id": "WS0008",
+      "locations": [
+        -77.5,
+        -61.3
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0009",
+      "locations": [
+        64.8,
+        31.1
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0010",
+      "locations": [
+        64.8,
+        -31.1
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0011",
+      "locations": [
+        55.7,
+        0.0
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 205
+}

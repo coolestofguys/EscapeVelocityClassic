@@ -1,0 +1,83 @@
+{
+  "id": "ev_heavy_rocket_shot",
+  "specClass": "missile",
+  "missileType": "ROCKET",
+  "sprite": "graphics/weapons/ev/ev_heavy_rocket_missile.png",
+  "size": [
+    14,
+    23
+  ],
+  "center": [
+    7,
+    11
+  ],
+  "collisionRadius": 16,
+  "collisionClass": "MISSILE_FF",
+  "explosionColor": [
+    235,
+    240,
+    255,
+    255
+  ],
+  "explosionRadius": 180,
+  "flameoutTime": 1,
+  "armingTime": 0.3,
+  "noEngineGlowTime": 0.3,
+  "fadeTime": 0.5,
+  "glowColor": [
+    235,
+    240,
+    255,
+    110
+  ],
+  "glowRadius": 55,
+  "engineSpec": {
+    "turnAcc": 0,
+    "turnRate": 0,
+    "acc": 1400,
+    "dec": 0
+  },
+  "engineSlots": [
+    {
+      "id": "ES1",
+      "loc": [
+        -11,
+        0
+      ],
+      "style": "CUSTOM",
+      "styleSpec": {
+        "mode": "QUAD_STRIP",
+        "engineColor": [
+          230,
+          238,
+          255,
+          255
+        ],
+        "contrailDuration": 1.2,
+        "contrailWidthMult": 1.5,
+        "contrailWidthAddedFractionAtEnd": 1,
+        "contrailMinSeg": 5,
+        "contrailMaxSpeedMult": 0.0,
+        "contrailAngularVelocityMult": 0.5,
+        "contrailSpawnDistMult": 0.0,
+        "contrailColor": [
+          220,
+          230,
+          255,
+          45
+        ],
+        "glowSizeMult": 2.2,
+        "glowAlternateColor": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "type": "GLOW"
+      },
+      "width": 8.0,
+      "length": 55.0,
+      "angle": 180.0
+    }
+  ]
+}

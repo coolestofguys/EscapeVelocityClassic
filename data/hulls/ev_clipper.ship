@@ -1,0 +1,203 @@
+{
+  "bounds": [
+    50.0,
+    -0.5,
+    46.0,
+    3.5,
+    26.0,
+    7.5,
+    26.0,
+    12.5,
+    20.0,
+    12.5,
+    15.0,
+    17.5,
+    9.0,
+    17.5,
+    11.0,
+    8.5,
+    -2.0,
+    13.5,
+    -6.0,
+    17.5,
+    -3.0,
+    21.5,
+    -17.0,
+    32.5,
+    -16.0,
+    35.5,
+    -6.0,
+    36.5,
+    -8.0,
+    38.5,
+    -31.0,
+    38.5,
+    -34.0,
+    15.5,
+    -40.0,
+    12.5,
+    -40.0,
+    5.5,
+    -49.0,
+    0.5,
+    -41.0,
+    -3.5,
+    -40.0,
+    -11.5,
+    -34.0,
+    -14.5,
+    -31.0,
+    -37.5,
+    -8.0,
+    -37.5,
+    -6.0,
+    -35.5,
+    -16.0,
+    -34.5,
+    -17.0,
+    -31.5,
+    -3.0,
+    -20.5,
+    -6.0,
+    -16.5,
+    5.0,
+    -8.5,
+    11.0,
+    -7.5,
+    9.0,
+    -16.5,
+    15.0,
+    -16.5,
+    20.0,
+    -11.5,
+    26.0,
+    -11.5,
+    25.0,
+    -7.5
+  ],
+  "center": [
+    38.5,
+    50.0
+  ],
+  "collisionRadius": 52.0,
+  "coversColor": "0,0,0,0",
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 12,
+      "location": [
+        -34.6,
+        20.0
+      ],
+      "style": "EV_CONFED_BLUE",
+      "width": 3
+    },
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 12,
+      "location": [
+        -34.6,
+        -20.0
+      ],
+      "style": "EV_CONFED_BLUE",
+      "width": 3
+    },
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 12,
+      "location": [
+        -40.7,
+        10.9
+      ],
+      "style": "EV_CONFED_BLUE",
+      "width": 3
+    },
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 12,
+      "location": [
+        -40.7,
+        -10.9
+      ],
+      "style": "EV_CONFED_BLUE",
+      "width": 3
+    },
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 12,
+      "location": [
+        -40.8,
+        7.7
+      ],
+      "style": "EV_CONFED_BLUE",
+      "width": 3
+    },
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 12,
+      "location": [
+        -40.8,
+        -7.7
+      ],
+      "style": "EV_CONFED_BLUE",
+      "width": 3
+    }
+  ],
+  "height": 100,
+  "hullId": "ev_clipper",
+  "hullName": "Clipper",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 49.4,
+  "spriteName": "graphics/ships/ev/ev_clipper.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        38.5,
+        0.0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 90,
+      "id": "WS0002",
+      "locations": [
+        -11.9,
+        22.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 90,
+      "id": "WS0003",
+      "locations": [
+        -11.9,
+        -22.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 77
+}

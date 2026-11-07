@@ -1,0 +1,96 @@
+{
+  "playableFaction": true,
+  "startingFaction": true,
+  "corvusCompatible": true,
+  "marketSpawnWeight": 1,
+  "difficultyString": "medium",
+  "defenceStations": [
+    {
+      "ids": [
+        "orbitalstation_mid",
+        "battlestation_mid",
+        "starfortress_mid"
+      ]
+    }
+  ],
+  "morality": "neutral",
+  "diplomacyTraits": [
+    "irredentist",
+    "helps_allies"
+  ],
+  "alignments": {
+    "militarist": 1,
+    "technocratic": 0.5,
+    "diplomatic": -0.5
+  },
+  "factionsDisliked": [
+    "ev_rebellion"
+  ],
+  "dispositions": {
+    "ev_rebellion": -30,
+    "pirates": -15
+  },
+  "startRelationships": {
+    "ev_rebellion": -1.0
+  },
+  "ngcTooltip": "Serve the Confederation, the union of core worlds that won the Great War against the alien invaders - and has not let go of its power since.",
+  "startShipsSolo": [
+    [
+      "ev_gunboat_Standard"
+    ]
+  ],
+  "startShipsCombatSmall": [
+    [
+      "ev_gunboat_Standard",
+      "ev_gunboat_Standard",
+      "ev_light_freighter_Standard"
+    ]
+  ],
+  "startShipsTradeSmall": [
+    [
+      "ev_light_freighter_Standard",
+      "ev_courier_Standard",
+      "ev_gunboat_Standard"
+    ]
+  ],
+  "startShipsCombatLarge": [
+    [
+      "ev_confed_frigate_Standard",
+      "ev_gunboat_Standard",
+      "ev_gunboat_Standard"
+    ]
+  ],
+  "startShipsTradeLarge": [
+    [
+      "ev_bulk_freighter_Standard",
+      "ev_argosy_Standard",
+      "ev_gunboat_Standard"
+    ]
+  ],
+  "startShipsCarrierSmall": [
+    [
+      "ev_kestrel_Standard"
+    ]
+  ],
+  "startShipsCarrierLarge": [
+    [
+      "ev_kestrel_Standard",
+      "ev_gunboat_Standard"
+    ]
+  ],
+  "startShipsSuper": [
+    [
+      "ev_confed_cruiser_Standard"
+    ]
+  ],
+  "industrySeeds": [
+    {
+      "id": "heavyindustry",
+      "mult": 0.1
+    },
+    {
+      "id": "militarybase",
+      "mult": 0.1
+    }
+  ]
+}

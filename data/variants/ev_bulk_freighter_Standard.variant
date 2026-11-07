@@ -1,0 +1,22 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 9,
+  "fluxVents": 20,
+  "goalVariant": true,
+  "hullId": "ev_bulk_freighter",
+  "hullMods": [],
+  "permaMods": [],
+  "sMods": [],
+  "quality": 1,
+  "variantId": "ev_bulk_freighter_Standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ev_laser_cannon"
+      }
+    }
+  ],
+  "wings": []
+}

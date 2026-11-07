@@ -1,0 +1,348 @@
+{
+  "bounds": [
+    160.0,
+    3.0,
+    137.0,
+    10.0,
+    42.0,
+    16.0,
+    36.0,
+    25.0,
+    90.0,
+    29.0,
+    0.0,
+    33.0,
+    3.0,
+    38.0,
+    50.0,
+    38.0,
+    54.0,
+    41.0,
+    -6.0,
+    44.0,
+    -92.0,
+    86.0,
+    -105.0,
+    86.0,
+    -121.0,
+    45.0,
+    -148.0,
+    40.0,
+    -148.0,
+    23.0,
+    -133.0,
+    21.0,
+    -132.0,
+    17.0,
+    -159.0,
+    10.0,
+    -159.0,
+    -10.0,
+    -132.0,
+    -16.0,
+    -133.0,
+    -20.0,
+    -148.0,
+    -22.0,
+    -148.0,
+    -39.0,
+    -122.0,
+    -43.0,
+    -105.0,
+    -85.0,
+    -92.0,
+    -85.0,
+    -6.0,
+    -43.0,
+    54.0,
+    -40.0,
+    50.0,
+    -37.0,
+    3.0,
+    -37.0,
+    0.0,
+    -32.0,
+    90.0,
+    -28.0,
+    36.0,
+    -24.0,
+    42.0,
+    -15.0,
+    144.0,
+    -8.0,
+    160.0,
+    -2.0
+  ],
+  "center": [
+    86.0,
+    160.0
+  ],
+  "collisionRadius": 162.0,
+  "coversColor": "0,0,0,0",
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 60,
+      "length": 56,
+      "location": [
+        -149.0,
+        29.0
+      ],
+      "style": "LOW_TECH",
+      "width": 15
+    },
+    {
+      "angle": 180,
+      "contrailSize": 60,
+      "length": 56,
+      "location": [
+        -149.0,
+        -29.0
+      ],
+      "style": "LOW_TECH",
+      "width": 15
+    },
+    {
+      "angle": 180,
+      "contrailSize": 68,
+      "length": 64,
+      "location": [
+        -159.0,
+        0.0
+      ],
+      "style": "LOW_TECH",
+      "width": 17
+    }
+  ],
+  "height": 320,
+  "hullId": "ev_rebel_cruiser",
+  "hullName": "Rebel Cruiser",
+  "hullSize": "CAPITAL_SHIP",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 153.9,
+  "spriteName": "graphics/ships/ev/ev_rebel_cruiser.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 30,
+      "arc": 270,
+      "id": "WS0001",
+      "locations": [
+        -26.4,
+        22.8
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -30,
+      "arc": 270,
+      "id": "WS0002",
+      "locations": [
+        -26.4,
+        -22.8
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 120,
+      "arc": 220,
+      "id": "WS0003",
+      "locations": [
+        -93.5,
+        67.8
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -120,
+      "arc": 220,
+      "id": "WS0004",
+      "locations": [
+        -93.5,
+        -67.8
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0005",
+      "locations": [
+        30.7,
+        27.6
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0006",
+      "locations": [
+        30.7,
+        -27.6
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0007",
+      "locations": [
+        -5.0,
+        39.1
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0008",
+      "locations": [
+        -5.0,
+        -39.1
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0009",
+      "locations": [
+        -38.5,
+        47.8
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0010",
+      "locations": [
+        -38.5,
+        -47.8
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0011",
+      "locations": [
+        -71.4,
+        62.8
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0012",
+      "locations": [
+        -71.4,
+        -62.8
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0013",
+      "locations": [
+        62.8,
+        6.4
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0014",
+      "locations": [
+        62.8,
+        -6.4
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB0001",
+      "locations": [
+        -76.4,
+        0.0
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB0002",
+      "locations": [
+        -53.8,
+        0.0
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB0003",
+      "locations": [
+        -30.7,
+        0.0
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB0004",
+      "locations": [
+        -99.8,
+        0.0
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 172
+}

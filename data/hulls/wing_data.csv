@@ -1,0 +1,5 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,number
+ev_patrol_wing,ev_patrol_ftr_Fighter,"fighter4, fighter, ev_confed_ftr, rare_bp",0,,7,15,V,4000,500,,2,FIGHTER,Shielded Fighter,12,12000,9501.0
+ev_manta_wing,ev_manta_ftr_Fighter,"interceptor2, interceptor, ev_rebel_ftr, rare_bp",0,,3,4,V,4000,500,,4,INTERCEPTOR,Interceptor,6,4000,9502.0
+ev_hawk_wing,ev_hawk_ftr_Fighter,"fighter2, fighter, ev_civ_ftr, rare_bp",0,,4,6,V,4000,500,,3,FIGHTER,Light Fighter,8,5000,9503.0
+ev_lightning_wing,ev_lightning_ftr_Fighter,"bomber3, bomber, ev_civ_ftr, rare_bp",0,,6,15,V,1500,500,,1,BOMBER,Strike Fighter,15,14000,9504.0

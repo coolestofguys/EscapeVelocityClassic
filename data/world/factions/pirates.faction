@@ -1,0 +1,20 @@
+{
+  "knownShips": {
+    "tags": [
+      "ev_civ"
+    ],
+    "hulls": []
+  },
+  "knownFighters": {
+    "tags": [
+      "ev_civ_ftr"
+    ],
+    "fighters": []
+  },
+  "knownWeapons": {
+    "tags": [
+      "ev_weapons"
+    ],
+    "weapons": []
+  }
+}

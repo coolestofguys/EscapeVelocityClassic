@@ -1,0 +1,33 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 10,
+  "fluxVents": 20,
+  "goalVariant": true,
+  "hullId": "ev_argosy",
+  "hullMods": [],
+  "permaMods": [],
+  "sMods": [],
+  "quality": 1,
+  "variantId": "ev_argosy_Standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ev_laser_cannon",
+        "WS0002": "ev_laser_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ev_laser_cannon",
+        "WS0004": "ev_laser_cannon"
+      }
+    }
+  ],
+  "wings": [
+    "ev_hawk_wing"
+  ]
+}

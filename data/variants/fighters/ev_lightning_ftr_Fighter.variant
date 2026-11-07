@@ -1,0 +1,20 @@
+{
+  "displayName": "Strike Fighter",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "ev_lightning_ftr",
+  "hullMods": [],
+  "quality": 0.5,
+  "variantId": "ev_lightning_ftr_Fighter",
+  "weaponGroups": [
+    {
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ev_laser_fighter",
+        "WS0002": "ev_laser_fighter",
+        "WS0003": "ev_rocket_fighter",
+        "WS0004": "ev_missile_fighter"
+      }
+    }
+  ]
+}

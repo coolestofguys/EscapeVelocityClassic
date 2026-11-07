@@ -1,0 +1,329 @@
+{
+  "id": "ev_confederation",
+  "color": [
+    80,
+    130,
+    220,
+    255
+  ],
+  "baseUIColor": [
+    80,
+    130,
+    220,
+    200
+  ],
+  "darkUIColor": [
+    16,
+    26,
+    44,
+    175
+  ],
+  "gridUIColor": [
+    40,
+    65,
+    110,
+    75
+  ],
+  "displayName": "Confederation",
+  "displayNameWithArticle": "the Confederation",
+  "displayNameLong": "Confederation",
+  "displayNameLongWithArticle": "the Confederation",
+  "entityNamePrefix": "",
+  "personNamePrefix": "Confederate",
+  "personNamePrefixAOrAn": "a",
+  "displayNameIsOrAre": "is",
+  "logo": "graphics/factions/ev_confed_flag.png",
+  "crest": "graphics/factions/ev_confed_crest.png",
+  "shipNamePrefix": "CNS",
+  "shipNameSources": {
+    "SPACE": 3,
+    "GENERAL": 3
+  },
+  "names": {
+    "modern": 3,
+    "world": 1,
+    "future": 2
+  },
+  "hullFrequency": {
+    "tags": {
+      "ev_confed": 1,
+      "ev_civ": 1
+    },
+    "hulls": {
+      "wolf": 0.0324,
+      "mercury": 0.5,
+      "hermes": 0.5,
+      "omen": 0.0265,
+      "tempest": 0.0265,
+      "brawler": 0.0324,
+      "vigilance": 0.0324,
+      "afflictor": 0.05,
+      "shade": 0.05,
+      "monitor": 0.0265,
+      "kite": 0.0324,
+      "centurion": 0.0265,
+      "scarab": 0.0265,
+      "wayfarer": 0.05,
+      "hammerhead": 0.05,
+      "sunder": 0.05,
+      "buffalo": 0.5,
+      "gemini": 0.3,
+      "valkyrie": 0.5,
+      "phantom": 0.5,
+      "medusa": 0.05,
+      "crig": 0.5,
+      "nebula": 0.5,
+      "harbinger": 0.05,
+      "drover": 0.05,
+      "shrike": 0.0393,
+      "falcon": 0.0333,
+      "eagle": 0.0333,
+      "champion": 0.0333,
+      "apogee": 0.0333,
+      "aurora": 0.0333,
+      "heron": 0.1,
+      "gryphon": 0.0333,
+      "starliner": 0.5,
+      "revenant": 0.5,
+      "fury": 0.0333,
+      "astral": 0.15,
+      "conquest": 0.0625,
+      "paragon": 0.0625,
+      "odyssey": 0.0625,
+      "pegasus": 0.0625
+    }
+  },
+  "shipsWhenImporting": {
+    "tags": [
+      "ev_confed"
+    ],
+    "hulls": []
+  },
+  "knownShips": {
+    "tags": [
+      "ev_confed",
+      "ev_civ"
+    ],
+    "hulls": [
+      "afflictor",
+      "apogee",
+      "astral",
+      "aurora",
+      "brawler",
+      "buffalo",
+      "centurion",
+      "champion",
+      "conquest",
+      "crig",
+      "drover",
+      "eagle",
+      "falcon",
+      "fury",
+      "gemini",
+      "gryphon",
+      "hammerhead",
+      "harbinger",
+      "hermes",
+      "heron",
+      "kite",
+      "medusa",
+      "mercury",
+      "monitor",
+      "nebula",
+      "odyssey",
+      "omen",
+      "paragon",
+      "pegasus",
+      "phantom",
+      "revenant",
+      "scarab",
+      "shade",
+      "shrike",
+      "starliner",
+      "sunder",
+      "tempest",
+      "valkyrie",
+      "vigilance",
+      "wayfarer",
+      "wolf"
+    ]
+  },
+  "priorityShips": {
+    "tags": [
+      "ev_confed",
+      "ev_civ"
+    ],
+    "hulls": []
+  },
+  "knownFighters": {
+    "tags": [
+      "ev_confed_ftr",
+      "ev_civ_ftr",
+      "base_bp",
+      "midline_bp",
+      "hightech_bp"
+    ],
+    "fighters": []
+  },
+  "priorityFighters": {
+    "tags": [
+      "ev_confed_ftr"
+    ],
+    "fighters": []
+  },
+  "knownWeapons": {
+    "tags": [
+      "ev_weapons",
+      "ev_confed_weapons",
+      "base_bp",
+      "midline_bp",
+      "hightech_bp",
+      "missile_bp"
+    ],
+    "weapons": []
+  },
+  "priorityWeapons": {
+    "tags": [
+      "ev_weapons",
+      "ev_confed_weapons"
+    ],
+    "weapons": []
+  },
+  "knownHullMods": {
+    "tags": [
+      "standard"
+    ],
+    "hullMods": []
+  },
+  "weaponSellFrequency": {
+    "ev_laser_cannon": 4,
+    "ev_proton_cannon": 4,
+    "ev_missile_rack": 4,
+    "ev_heavy_rocket": 4,
+    "ev_torpedo": 4,
+    "ev_neutron_blaster": 6
+  },
+  "fighterSellFrequency": {
+    "ev_hawk_wing": 4,
+    "ev_lightning_wing": 4,
+    "ev_patrol_wing": 6
+  },
+  "factionDoctrine": {
+    "warships": 4,
+    "carriers": 2,
+    "phaseShips": 1,
+    "officerQuality": 3,
+    "shipQuality": 4,
+    "numShips": 3,
+    "shipSize": 4,
+    "aggression": 2,
+    "combatFreighterProbability": 0.5,
+    "combatFreighterCombatUseFraction": 0.5,
+    "combatFreighterCombatUseFractionWhenPriority": 1,
+    "autofitRandomizeProbability": 0.25,
+    "commanderSkillsShuffleProbability": 1,
+    "commanderSkills": [
+      "crew_training",
+      "tactical_drills",
+      "officer_training",
+      "coordinated_maneuvers",
+      "electronic_warfare",
+      "fighter_uplink",
+      "carrier_group",
+      "flux_regulation"
+    ]
+  },
+  "illegalCommodities": [
+    "drugs",
+    "organs",
+    "hand_weapons",
+    "ai_cores"
+  ],
+  "portraits": {
+    "standard_male": [
+      "graphics/portraits/portrait_mercenary01.png",
+      "graphics/portraits/portrait_mercenary03.png",
+      "graphics/portraits/portrait_mercenary04.png",
+      "graphics/portraits/portrait_mercenary06.png",
+      "graphics/portraits/portrait_mercenary08.png",
+      "graphics/portraits/portrait12.png",
+      "graphics/portraits/portrait13.png",
+      "graphics/portraits/portrait15.png",
+      "graphics/portraits/portrait17.png",
+      "graphics/portraits/portrait18.png",
+      "graphics/portraits/portrait20.png",
+      "graphics/portraits/portrait23.png",
+      "graphics/portraits/portrait25.png",
+      "graphics/portraits/portrait26.png",
+      "graphics/portraits/portrait30.png",
+      "graphics/portraits/portrait31.png"
+    ],
+    "standard_female": [
+      "graphics/portraits/portrait_mercenary02.png",
+      "graphics/portraits/portrait_mercenary05.png",
+      "graphics/portraits/portrait14.png",
+      "graphics/portraits/portrait16.png",
+      "graphics/portraits/portrait21.png",
+      "graphics/portraits/portrait22.png",
+      "graphics/portraits/portrait27.png",
+      "graphics/portraits/portrait28.png",
+      "graphics/portraits/portrait29.png",
+      "graphics/portraits/portrait32.png"
+    ]
+  },
+  "ranks": {
+    "factionLeader": {
+      "name": "Senate Chairman"
+    }
+  },
+  "posts": {
+    "factionLeader": {
+      "name": "Senate Chairman"
+    },
+    "administrator": {
+      "name": "Governor"
+    },
+    "militaryAdministrator": {
+      "name": "Military Governor"
+    }
+  },
+  "voices": {
+    "LOW": {
+      "soldier": 10,
+      "spacer": 10
+    },
+    "MEDIUM": {
+      "soldier": 10,
+      "official": 10
+    },
+    "HIGH": {
+      "soldier": 5,
+      "official": 10
+    }
+  },
+  "custom": {
+    "offersCommissions": true,
+    "engagesInHostilities": true,
+    "buysAICores": true,
+    "AICoreValueMult": 1,
+    "AICoreRepMult": 1,
+    "buysSurveyData": true,
+    "hostilityImpactOnGrowth": true,
+    "caresAboutAtrocities": true,
+    "punitiveExpeditionData": {
+      "vsCompetitors": false,
+      "vsFreePort": false,
+      "canBombard": false,
+      "territorial": true
+    },
+    "simulatorData": {
+      "showInSimulator": true
+    }
+  },
+  "fleetTypeNames": {
+    "trade": "Merchant Convoy",
+    "patrolSmall": "Confederate Patrol",
+    "patrolMedium": "Confederate Task Force",
+    "patrolLarge": "Confederate Battle Group"
+  }
+}

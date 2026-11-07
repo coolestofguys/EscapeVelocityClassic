@@ -1,0 +1,62 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 0,
+  "fluxVents": 40,
+  "goalVariant": true,
+  "hullId": "ev_confed_cruiser",
+  "hullMods": [
+    "hardenedshieldemitter",
+    "targetingunit"
+  ],
+  "permaMods": [],
+  "sMods": [],
+  "quality": 1,
+  "variantId": "ev_confed_cruiser_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ev_neutron_blaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "ev_proton_cannon",
+        "WS0003": "ev_proton_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "ev_laser_cannon",
+        "WS0005": "ev_laser_cannon",
+        "WS0010": "ev_laser_cannon",
+        "WS0011": "ev_laser_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "ev_torpedo",
+        "WS0007": "ev_torpedo"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "ev_proton_cannon",
+        "WS0009": "ev_proton_cannon"
+      }
+    }
+  ],
+  "wings": [
+    "ev_patrol_wing",
+    "ev_patrol_wing"
+  ]
+}

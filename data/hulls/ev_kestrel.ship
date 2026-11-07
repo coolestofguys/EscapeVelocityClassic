@@ -1,0 +1,266 @@
+{
+  "bounds": [
+    110.0,
+    0.5,
+    71.0,
+    13.5,
+    38.0,
+    10.5,
+    -22.0,
+    19.5,
+    -34.0,
+    17.5,
+    -40.0,
+    24.5,
+    -24.0,
+    53.5,
+    -11.0,
+    58.5,
+    -44.0,
+    61.5,
+    -48.0,
+    58.5,
+    -41.0,
+    57.5,
+    -41.0,
+    52.5,
+    -77.0,
+    34.5,
+    -82.0,
+    24.5,
+    -100.0,
+    32.5,
+    -96.0,
+    24.5,
+    -98.0,
+    11.5,
+    -106.0,
+    8.5,
+    -104.0,
+    1.5,
+    -109.0,
+    -1.5,
+    -104.0,
+    -3.5,
+    -106.0,
+    -10.5,
+    -98.0,
+    -13.5,
+    -96.0,
+    -26.5,
+    -100.0,
+    -34.5,
+    -81.0,
+    -26.5,
+    -77.0,
+    -35.5,
+    -63.0,
+    -38.5,
+    -40.0,
+    -52.5,
+    -48.0,
+    -58.5,
+    -17.0,
+    -60.5,
+    -11.0,
+    -57.5,
+    -21.0,
+    -55.5,
+    -39.0,
+    -29.5,
+    -34.0,
+    -19.5,
+    -22.0,
+    -21.5,
+    37.0,
+    -12.5,
+    70.0,
+    -15.5
+  ],
+  "center": [
+    61.5,
+    110.0
+  ],
+  "collisionRadius": 112.0,
+  "coversColor": "0,0,0,0",
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 32,
+      "length": 26,
+      "location": [
+        -98.7,
+        19.4
+      ],
+      "style": "LOW_TECH",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 32,
+      "length": 26,
+      "location": [
+        -98.7,
+        -19.4
+      ],
+      "style": "LOW_TECH",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 32,
+      "length": 26,
+      "location": [
+        -98.7,
+        11.8
+      ],
+      "style": "LOW_TECH",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 32,
+      "length": 26,
+      "location": [
+        -98.7,
+        -11.8
+      ],
+      "style": "LOW_TECH",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 24,
+      "length": 22,
+      "location": [
+        -98.2,
+        0.0
+      ],
+      "style": "LOW_TECH",
+      "width": 6
+    }
+  ],
+  "height": 220,
+  "hullId": "ev_kestrel",
+  "hullName": "Kestrel",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 106.4,
+  "spriteName": "graphics/ships/ev/ev_kestrel.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        48.2,
+        -1.4
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0002",
+      "locations": [
+        10.5,
+        -1.4
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 60,
+      "arc": 240,
+      "id": "WS0003",
+      "locations": [
+        -43.4,
+        42.3
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -60,
+      "arc": 240,
+      "id": "WS0004",
+      "locations": [
+        -43.4,
+        -42.1
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0005",
+      "locations": [
+        -30.8,
+        58.6
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0006",
+      "locations": [
+        -31.0,
+        -57.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 120,
+      "id": "WS0007",
+      "locations": [
+        89.5,
+        -1.4
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB0001",
+      "locations": [
+        -64.0,
+        27.0
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB0002",
+      "locations": [
+        -64.0,
+        -26.9
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 123
+}

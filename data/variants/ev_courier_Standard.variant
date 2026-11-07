@@ -1,0 +1,22 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 9,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "ev_courier",
+  "hullMods": [],
+  "permaMods": [],
+  "sMods": [],
+  "quality": 1,
+  "variantId": "ev_courier_Standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ev_laser_cannon"
+      }
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "ev_laser_shot",
+  "specClass": "projectile",
+  "spawnType": "BALLISTIC_AS_BEAM",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "length": 40.0,
+  "width": 5.0,
+  "fadeTime": 0.25,
+  "fringeColor": [
+    60,
+    255,
+    90,
+    255
+  ],
+  "coreColor": [
+    215,
+    255,
+    220,
+    255
+  ],
+  "glowColor": [
+    60,
+    255,
+    90,
+    80
+  ],
+  "glowRadius": 20,
+  "hitGlowRadius": 30,
+  "textureType": "SMOOTH",
+  "textureScrollSpeed": -256.0,
+  "pixelsPerTexel": 1.0
+}

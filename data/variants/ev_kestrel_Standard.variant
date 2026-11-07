@@ -1,0 +1,52 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 10,
+  "fluxVents": 30,
+  "goalVariant": true,
+  "hullId": "ev_kestrel",
+  "hullMods": [
+    "hardenedshieldemitter",
+    "targetingunit"
+  ],
+  "permaMods": [],
+  "sMods": [],
+  "quality": 1,
+  "variantId": "ev_kestrel_Standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ev_proton_cannon",
+        "WS0002": "ev_proton_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ev_laser_cannon",
+        "WS0004": "ev_laser_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "ev_missile_rack",
+        "WS0006": "ev_missile_rack"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "ev_torpedo"
+      }
+    }
+  ],
+  "wings": [
+    "ev_lightning_wing",
+    "ev_lightning_wing"
+  ]
+}

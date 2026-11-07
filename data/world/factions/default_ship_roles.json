@@ -1,0 +1,64 @@
+{
+  "personnelSmall": {
+    "ev_shuttlecraft_Standard": 4
+  },
+  "tankerSmall": {
+    "ev_courier_Standard": 10
+  },
+  "tankerMedium": {
+    "ev_light_freighter_Standard": 10
+  },
+  "freighterMedium": {
+    "ev_light_freighter_Standard": 4,
+    "ev_argosy_Standard": 6
+  },
+  "combatSmall": {
+    "ev_clipper_Standard": 6,
+    "ev_defender_Standard": 4,
+    "ev_gunboat_Standard": 8
+  },
+  "combatSmallForSmallFleet": {
+    "ev_clipper_Standard": 4,
+    "ev_defender_Standard": 4,
+    "ev_gunboat_Standard": 6
+  },
+  "escortSmall": {
+    "ev_defender_Standard": 5
+  },
+  "combatMedium": {
+    "ev_rapier_Standard": 5,
+    "ev_corvette_Standard": 6,
+    "ev_rebel_destroyer_Standard": 10
+  },
+  "escortMedium": {
+    "ev_corvette_Standard": 6,
+    "ev_rebel_destroyer_Standard": 4
+  },
+  "combatFreighterMedium": {
+    "ev_corvette_Standard": 2,
+    "ev_argosy_Standard": 10
+  },
+  "carrierSmall": {
+    "ev_argosy_Standard": 2
+  },
+  "combatLarge": {
+    "ev_kestrel_Standard": 6,
+    "ev_confed_frigate_Standard": 10
+  },
+  "carrierLarge": {
+    "ev_kestrel_Standard": 3,
+    "ev_confed_cruiser_Standard": 3,
+    "ev_escort_carrier_Standard": 10
+  },
+  "carrierMedium": {
+    "ev_kestrel_Standard": 4,
+    "ev_escort_carrier_Standard": 6
+  },
+  "freighterLarge": {
+    "ev_bulk_freighter_Standard": 10
+  },
+  "combatCapital": {
+    "ev_confed_cruiser_Standard": 10,
+    "ev_rebel_cruiser_Standard": 10
+  }
+}

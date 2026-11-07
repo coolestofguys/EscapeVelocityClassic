@@ -1,0 +1,88 @@
+{
+  "bounds": [
+    24.0,
+    7.0,
+    22.0,
+    7.0,
+    21.0,
+    9.0,
+    13.0,
+    9.0,
+    12.0,
+    12.0,
+    -20.0,
+    12.0,
+    -23.0,
+    9.0,
+    -23.0,
+    -8.0,
+    -20.0,
+    -11.0,
+    12.0,
+    -11.0,
+    13.0,
+    -8.0,
+    24.0,
+    -8.0
+  ],
+  "center": [
+    14.0,
+    26.0
+  ],
+  "collisionRadius": 27.3,
+  "coversColor": "0,0,0,0",
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 28,
+      "length": 16,
+      "location": [
+        -23.0,
+        3.0
+      ],
+      "style": "LOW_TECH",
+      "width": 7
+    },
+    {
+      "angle": 180,
+      "contrailSize": 28,
+      "length": 16,
+      "location": [
+        -23.0,
+        -3.0
+      ],
+      "style": "LOW_TECH",
+      "width": 7
+    }
+  ],
+  "height": 52,
+  "hullId": "ev_shuttlecraft",
+  "hullName": "Shuttlecraft",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 25.9,
+  "spriteName": "graphics/ships/ev/ev_shuttlecraft.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 300,
+      "id": "WS0001",
+      "locations": [
+        11.2,
+        0.0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 28,
+  "builtInMods": [
+    "civgrade"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "bounds": [
+    15.0,
+    1.5,
+    0.0,
+    1.5,
+    -1.0,
+    4.5,
+    1.0,
+    5.5,
+    1.0,
+    7.5,
+    -5.0,
+    7.5,
+    -8.0,
+    3.5,
+    -14.0,
+    2.5,
+    -14.0,
+    -4.5,
+    -12.0,
+    -4.5,
+    -10.0,
+    -2.5,
+    -7.0,
+    -2.5,
+    -5.0,
+    -6.5,
+    1.0,
+    -6.5,
+    0.0,
+    -4.5,
+    1.0,
+    -0.5,
+    15.0,
+    -0.5
+  ],
+  "center": [
+    7.5,
+    15.0
+  ],
+  "collisionRadius": 17.1,
+  "coversColor": "0,0,0,0",
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 20,
+      "length": 12,
+      "location": [
+        -13.0,
+        -0.5
+      ],
+      "style": "MIDLINE",
+      "width": 5
+    }
+  ],
+  "height": 30,
+  "hullId": "ev_patrol_ftr",
+  "hullName": "Confed Patrol Ship",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 16.2,
+  "spriteName": "graphics/ships/ev/ev_patrol_ftr.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        5.0,
+        0.0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        0.0,
+        0.0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 15
+}

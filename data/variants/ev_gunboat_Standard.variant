@@ -1,0 +1,39 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 4,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "ev_gunboat",
+  "hullMods": [
+    "hardenedshieldemitter"
+  ],
+  "permaMods": [],
+  "sMods": [],
+  "quality": 1,
+  "variantId": "ev_gunboat_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ev_laser_cannon",
+        "WS0002": "ev_laser_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ev_heavy_rocket"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "ev_laser_cannon"
+      }
+    }
+  ],
+  "wings": []
+}

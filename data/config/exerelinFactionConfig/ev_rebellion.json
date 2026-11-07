@@ -1,0 +1,95 @@
+{
+  "playableFaction": true,
+  "startingFaction": true,
+  "corvusCompatible": true,
+  "marketSpawnWeight": 1,
+  "difficultyString": "medium",
+  "defenceStations": [
+    {
+      "ids": [
+        "orbitalstation_mid",
+        "battlestation_mid",
+        "starfortress_mid"
+      ]
+    }
+  ],
+  "morality": "neutral",
+  "diplomacyTraits": [
+    "foreverwar",
+    "helps_allies"
+  ],
+  "alignments": {
+    "ideological": 1,
+    "militarist": 0.5,
+    "diplomatic": 0
+  },
+  "factionsDisliked": [
+    "ev_confederation"
+  ],
+  "dispositions": {
+    "ev_confederation": -30
+  },
+  "startRelationships": {
+    "ev_confederation": -1.0
+  },
+  "ngcTooltip": "Join the Rebellion of the outer colonies, fighting to throw off Confederation rule after years of exploitation.",
+  "startShipsSolo": [
+    [
+      "ev_defender_Standard"
+    ]
+  ],
+  "startShipsCombatSmall": [
+    [
+      "ev_rapier_Standard",
+      "ev_defender_Standard",
+      "ev_light_freighter_Standard"
+    ]
+  ],
+  "startShipsTradeSmall": [
+    [
+      "ev_light_freighter_Standard",
+      "ev_courier_Standard",
+      "ev_defender_Standard"
+    ]
+  ],
+  "startShipsCombatLarge": [
+    [
+      "ev_rebel_destroyer_Standard",
+      "ev_rapier_Standard",
+      "ev_defender_Standard"
+    ]
+  ],
+  "startShipsTradeLarge": [
+    [
+      "ev_bulk_freighter_Standard",
+      "ev_argosy_Standard",
+      "ev_defender_Standard"
+    ]
+  ],
+  "startShipsCarrierSmall": [
+    [
+      "ev_escort_carrier_Standard"
+    ]
+  ],
+  "startShipsCarrierLarge": [
+    [
+      "ev_escort_carrier_Standard",
+      "ev_rebel_destroyer_Standard"
+    ]
+  ],
+  "startShipsSuper": [
+    [
+      "ev_rebel_cruiser_Standard"
+    ]
+  ],
+  "industrySeeds": [
+    {
+      "id": "heavyindustry",
+      "mult": 0.1
+    },
+    {
+      "id": "fuelprod",
+      "mult": 0.1
+    }
+  ]
+}

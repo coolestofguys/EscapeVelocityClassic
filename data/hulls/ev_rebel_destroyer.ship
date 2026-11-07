@@ -1,0 +1,208 @@
+{
+  "bounds": [
+    75.0,
+    4.5,
+    59.0,
+    13.5,
+    47.0,
+    11.5,
+    38.0,
+    21.5,
+    33.0,
+    21.5,
+    32.0,
+    12.5,
+    17.0,
+    14.5,
+    5.0,
+    37.5,
+    -3.0,
+    37.5,
+    -3.0,
+    21.5,
+    -14.0,
+    18.5,
+    -46.0,
+    36.5,
+    -30.0,
+    40.5,
+    -58.0,
+    42.5,
+    -71.0,
+    36.5,
+    -60.0,
+    30.5,
+    -74.0,
+    24.5,
+    -65.0,
+    18.5,
+    -69.0,
+    7.5,
+    -65.0,
+    -17.5,
+    -74.0,
+    -23.5,
+    -60.0,
+    -29.5,
+    -71.0,
+    -35.5,
+    -51.0,
+    -41.5,
+    -30.0,
+    -39.5,
+    -46.0,
+    -35.5,
+    -24.0,
+    -19.5,
+    -10.0,
+    -17.5,
+    -3.0,
+    -20.5,
+    -3.0,
+    -36.5,
+    1.0,
+    -37.5,
+    17.0,
+    -13.5,
+    32.0,
+    -11.5,
+    33.0,
+    -20.5,
+    38.0,
+    -20.5,
+    47.0,
+    -10.5,
+    59.0,
+    -12.5,
+    71.0,
+    -6.5
+  ],
+  "center": [
+    42.5,
+    75.0
+  ],
+  "collisionRadius": 81.8,
+  "coversColor": "0,0,0,0",
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 36,
+      "length": 30,
+      "location": [
+        -60.3,
+        14.8
+      ],
+      "style": "LOW_TECH",
+      "width": 9
+    },
+    {
+      "angle": 180,
+      "contrailSize": 36,
+      "length": 30,
+      "location": [
+        -60.3,
+        -14.8
+      ],
+      "style": "LOW_TECH",
+      "width": 9
+    },
+    {
+      "angle": 180,
+      "contrailSize": 40,
+      "length": 34,
+      "location": [
+        -64.7,
+        0.0
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    }
+  ],
+  "height": 150,
+  "hullId": "ev_rebel_destroyer",
+  "hullName": "Rebel Destroyer",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 77.7,
+  "spriteName": "graphics/ships/ev/ev_rebel_destroyer.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        41.1,
+        0.0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 180,
+      "arc": 300,
+      "id": "WS0002",
+      "locations": [
+        -37.6,
+        0.0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        0.2,
+        31.8
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0004",
+      "locations": [
+        0.2,
+        -31.8
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 90,
+      "id": "WS0005",
+      "locations": [
+        -45.4,
+        30.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 90,
+      "id": "WS0006",
+      "locations": [
+        -45.4,
+        -30.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 85
+}

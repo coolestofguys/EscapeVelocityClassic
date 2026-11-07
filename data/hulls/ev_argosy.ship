@@ -1,0 +1,219 @@
+{
+  "bounds": [
+    75.0,
+    3.5,
+    66.0,
+    9.5,
+    45.0,
+    12.5,
+    31.0,
+    24.5,
+    25.0,
+    24.5,
+    28.0,
+    16.5,
+    27.0,
+    12.5,
+    8.0,
+    13.5,
+    1.0,
+    21.5,
+    -17.0,
+    26.5,
+    -44.0,
+    54.5,
+    -55.0,
+    54.5,
+    -63.0,
+    27.5,
+    -61.0,
+    24.5,
+    -69.0,
+    21.5,
+    -67.0,
+    7.5,
+    -74.0,
+    5.5,
+    -74.0,
+    -4.5,
+    -67.0,
+    -6.5,
+    -69.0,
+    -20.5,
+    -61.0,
+    -23.5,
+    -63.0,
+    -26.5,
+    -55.0,
+    -53.5,
+    -44.0,
+    -53.5,
+    -18.0,
+    -26.5,
+    -11.0,
+    -22.5,
+    -4.0,
+    -22.5,
+    2.0,
+    -19.5,
+    8.0,
+    -12.5,
+    27.0,
+    -11.5,
+    28.0,
+    -15.5,
+    25.0,
+    -23.5,
+    31.0,
+    -23.5,
+    45.0,
+    -11.5,
+    57.0,
+    -10.5,
+    70.0,
+    -6.5,
+    75.0,
+    -2.5
+  ],
+  "center": [
+    54.5,
+    75.0
+  ],
+  "collisionRadius": 79.4,
+  "coversColor": "0,0,0,0",
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 28,
+      "length": 26,
+      "location": [
+        -69.2,
+        16.3
+      ],
+      "style": "LOW_TECH",
+      "width": 7
+    },
+    {
+      "angle": 180,
+      "contrailSize": 28,
+      "length": 26,
+      "location": [
+        -69.2,
+        -16.3
+      ],
+      "style": "LOW_TECH",
+      "width": 7
+    },
+    {
+      "angle": 180,
+      "contrailSize": 28,
+      "length": 26,
+      "location": [
+        -69.2,
+        -16.3
+      ],
+      "style": "LOW_TECH",
+      "width": 7
+    },
+    {
+      "angle": 180,
+      "contrailSize": 28,
+      "length": 26,
+      "location": [
+        -69.2,
+        16.3
+      ],
+      "style": "LOW_TECH",
+      "width": 7
+    },
+    {
+      "angle": 180,
+      "contrailSize": 36,
+      "length": 32,
+      "location": [
+        -73.5,
+        0.0
+      ],
+      "style": "LOW_TECH",
+      "width": 9
+    }
+  ],
+  "height": 150,
+  "hullId": "ev_argosy",
+  "hullName": "Argosy",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 75.5,
+  "spriteName": "graphics/ships/ev/ev_argosy.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 120,
+      "arc": 240,
+      "id": "WS0001",
+      "locations": [
+        -37.3,
+        35.3
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -120,
+      "arc": 240,
+      "id": "WS0002",
+      "locations": [
+        -37.3,
+        -35.3
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        30.9,
+        17.0
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0004",
+      "locations": [
+        30.9,
+        -17.0
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB0001",
+      "locations": [
+        -6.7,
+        0.0
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 109,
+  "builtInMods": [
+    "civgrade"
+  ]
+}

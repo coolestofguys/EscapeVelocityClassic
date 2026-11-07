@@ -1,0 +1,18 @@
+{
+  "displayName": "Shielded Fighter",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "ev_patrol_ftr",
+  "hullMods": [],
+  "quality": 0.5,
+  "variantId": "ev_patrol_ftr_Fighter",
+  "weaponGroups": [
+    {
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ev_proton_fighter",
+        "WS0002": "ev_missile_fighter"
+      }
+    }
+  ]
+}

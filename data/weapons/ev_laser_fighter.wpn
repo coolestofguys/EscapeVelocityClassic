@@ -1,0 +1,48 @@
+{
+  "id": "ev_laser_fighter",
+  "specClass": "projectile",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/ev/ev_laser_cannon_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/light_pulse_laser_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/ev/ev_laser_cannon_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/light_pulse_laser_hardpoint_glow.png",
+  "turretOffsets": [
+    10,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    15,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "glowColor": [
+    60,
+    255,
+    90,
+    255
+  ],
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 30.0,
+    "spread": 8.0,
+    "particleSizeMin": 8.0,
+    "particleSizeRange": 10.0,
+    "particleDuration": 0.12,
+    "particleCount": 10,
+    "particleColor": [
+      60,
+      255,
+      90,
+      255
+    ]
+  },
+  "projectileSpecId": "ev_laser_shot",
+  "fireSoundTwo": "ev_laser_fire"
+}

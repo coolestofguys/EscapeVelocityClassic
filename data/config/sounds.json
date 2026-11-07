@@ -1,0 +1,51 @@
+{
+  "ev_laser_fire": [
+    {
+      "file": "sounds/ev/ev_laser.ogg",
+      "pitch": 1,
+      "volume": 0.55
+    }
+  ],
+  "ev_proton_fire": [
+    {
+      "file": "sounds/ev/ev_proton.ogg",
+      "pitch": 1,
+      "volume": 0.6
+    }
+  ],
+  "ev_neutron_fire": [
+    {
+      "file": "sounds/ev/ev_neutron.ogg",
+      "pitch": 1,
+      "volume": 1.0
+    }
+  ],
+  "ev_missile_fire": [
+    {
+      "file": "sounds/ev/ev_missile.ogg",
+      "pitch": 1,
+      "volume": 0.7
+    }
+  ],
+  "ev_rocket_fire": [
+    {
+      "file": "sounds/ev/ev_rocket.ogg",
+      "pitch": 1,
+      "volume": 0.7
+    }
+  ],
+  "ev_torpedo_fire": [
+    {
+      "file": "sounds/ev/ev_torpedo.ogg",
+      "pitch": 1,
+      "volume": 0.8
+    }
+  ],
+  "ev_mass_driver_fire": [
+    {
+      "file": "sounds/ev/ev_mass_driver.ogg",
+      "pitch": 1,
+      "volume": 0.8
+    }
+  ]
+}

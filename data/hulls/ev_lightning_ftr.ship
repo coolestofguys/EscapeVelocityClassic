@@ -1,0 +1,143 @@
+{
+  "bounds": [
+    16.0,
+    0.0,
+    14.0,
+    1.0,
+    7.0,
+    1.0,
+    2.0,
+    3.0,
+    -3.0,
+    3.0,
+    -6.0,
+    5.0,
+    -6.0,
+    7.0,
+    -5.0,
+    8.0,
+    -1.0,
+    8.0,
+    -1.0,
+    9.0,
+    -5.0,
+    9.0,
+    -9.0,
+    13.0,
+    -13.0,
+    13.0,
+    -13.0,
+    2.0,
+    -15.0,
+    1.0,
+    -13.0,
+    -1.0,
+    -13.0,
+    -12.0,
+    -8.0,
+    -12.0,
+    -6.0,
+    -9.0,
+    -1.0,
+    -9.0,
+    -3.0,
+    -9.0,
+    -6.0,
+    -6.0,
+    -5.0,
+    -3.0
+  ],
+  "center": [
+    13.0,
+    16.0
+  ],
+  "collisionRadius": 20.4,
+  "coversColor": "0,0,0,0",
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 10,
+      "location": [
+        -13.0,
+        9.0
+      ],
+      "style": "LOW_TECH",
+      "width": 4
+    },
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 10,
+      "location": [
+        -13.0,
+        -9.0
+      ],
+      "style": "LOW_TECH",
+      "width": 4
+    }
+  ],
+  "height": 32,
+  "hullId": "ev_lightning_ftr",
+  "hullName": "Lightning",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 19.4,
+  "spriteName": "graphics/ships/ev/ev_lightning_ftr.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        6.0,
+        2.0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        5.0,
+        -1.0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        0.0,
+        3.0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0004",
+      "locations": [
+        -1.0,
+        -9.0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 26
+}
