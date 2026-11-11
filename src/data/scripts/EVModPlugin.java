@@ -4,6 +4,7 @@ import com.fs.starfarer.api.BaseModPlugin;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.FactionAPI;
 import com.fs.starfarer.api.campaign.SectorAPI;
+import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import data.scripts.world.EVMarketShips;
 import data.scripts.world.EVSectorGen;
 
@@ -33,6 +34,22 @@ public class EVModPlugin extends BaseModPlugin {
         if (!Global.getSector().getListenerManager().hasListenerOfClass(EVMarketShips.class)) {
             Global.getSector().getListenerManager().addListener(new EVMarketShips());
         }
+        applyMarketBonuses();
+    }
+
+    /**
+     * New Providence (size 7, max 4 industries) runs 5: farming, mining, refining, light industry
+     * and commerce. Its Astex charter adds one industry slot so it avoids the -5 over-limit
+     * stability penalty. Re-applied on every load (same source id, so it never stacks).
+     */
+    private static void applyMarketBonuses() {
+        MarketAPI providence = Global.getSector().getEconomy().getMarket("ev_new_providence_market");
+        if (providence == null) {
+            return;
+        }
+        providence.getStats().getDynamic().getMod("max_industries")
+                .modifyFlat("ev_astex_charter", 1f, "Astex Corporate Charter");
+        providence.reapplyIndustries();
     }
 
     private static void setRelations(SectorAPI sector) {

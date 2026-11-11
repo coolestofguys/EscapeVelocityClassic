@@ -1,4 +1,4 @@
-# Escape Velocity Classic for Starsector (v0.5.0)
+# Escape Velocity Classic for Starsector (v0.5.1)
 
 This mod adds the Confederation and the Rebellion from the original *Escape Velocity* (Ambrosia
 Software, 1996) to Starsector 0.98a. You get their ships and weapons, the main civilian EV
